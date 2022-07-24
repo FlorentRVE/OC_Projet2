@@ -1,0 +1,145 @@
+/* ===================================================== 992px ================================================= */
+
+@media (max-width: 992px) {
+    * {
+     --bleu: red;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* ============================= Menu ======================== */
+
+    nav {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .nav__link {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    nav a {
+        border-bottom: 4px solid var(--gris);
+        flex: 1;
+        text-align: center;
+        padding: 25px 25px 10px 25px;
+    }
+
+    
+    nav a:hover {
+        border-bottom: 4px solid var(--bleu);
+        border-top: none;
+        color: var(--bleu);
+    }
+
+    /* ====================== Search box ===================== */
+
+
+    .search__box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .search__box__p {
+        margin-bottom: 40px;
+    }
+
+    button {
+        border-radius: 15px 15px 15px 15px;
+        margin-left: -15px;
+      
+    }
+
+    .filter__box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filter__text {
+        margin-bottom: 0px;
+    }
+
+    .filter__item,
+    .filter__item_two,
+    .filter__item_three,
+    .filter__item_four {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    /* ============================= Host Popular Activity ===================== */
+
+    .host_and_popular_container {
+        flex-direction: column;
+        gap: 0px;
+    }
+   
+    .host,
+    .popular {
+        width: 100%;
+    }
+
+    .host {
+        order: 2;
+        padding: 25px 20px 0px 20px;
+        background-color: white;
+    
+    }
+    
+    .host__grid__card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
+
+    .popular {
+        order: 1;
+        padding: 25px 20px;
+        border-radius: 0px;
+    }
+    
+    .popular__grid {
+        gap: 0px;
+    }
+
+    .popular__grid__card {
+        padding: 4px;
+        margin: 10px auto;
+    
+        width: 100%;
+        min-width: 310px;
+       
+    }
+
+    .activity {
+        margin-left:  auto;
+        margin-right:  auto;
+
+        width: 90%;
+    }
+
+    .activity__grid {
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .activity__grid__card {
+        width: 45%;
+        height: auto;
+        min-height: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .activity__grid__card img {
+        max-height: 150px;
+    }
+
+
+}

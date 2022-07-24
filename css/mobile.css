@@ -1,0 +1,60 @@
+/* ==================================================== 768px ============================================== */
+
+
+
+@media (max-width: 768px) {
+
+    * {
+        --bleu: green;
+       }
+
+
+    /* ====================== Search box ===================== */
+    
+    .button__text {
+        display: none;
+    }
+
+    
+    .fa-magnifying-glass {
+        display:contents
+    }
+
+    /* ============================= Host Popular Activity ===================== */
+
+    .host__grid {
+        flex-direction: column;
+    }
+    
+    .popular__grid {
+        gap: 0px;
+    }
+
+    .activity__grid {
+        flex-wrap: nowrap;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .host__grid__card,
+    .activity__grid__card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .activity__grid__card {
+        text-align:justify;
+    }
+
+/* =========================== Footer ==================== */
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer__card {
+        padding: 20px 40px;
+    }
+
+
+}
