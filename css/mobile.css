@@ -15,6 +15,11 @@
         display: none;
     }
 
+    button {
+        border-radius: 15px 15px 15px 15px;
+        margin-left: -15px;
+      
+    }
     
     .fa-magnifying-glass {
         display:contents

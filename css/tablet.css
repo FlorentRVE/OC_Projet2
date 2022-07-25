@@ -49,12 +49,6 @@
         margin-bottom: 40px;
     }
 
-    button {
-        border-radius: 15px 15px 15px 15px;
-        margin-left: -15px;
-      
-    }
-
     .filter__box {
         flex-direction: column;
         align-items: flex-start;

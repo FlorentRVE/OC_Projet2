@@ -155,7 +155,7 @@ form {
 .filter__item_four {
     border: 3px solid var(--gris);
     border-radius: 30px;
-    padding: 0 20px;
+    padding: 0 19px;
     margin-right: 25px;
 }
 
@@ -180,6 +180,8 @@ form {
 
 .filter__item_two::before {
     content: "\e59d";
+    font-size: 20px;
+    padding: 15px 18px;
 }
 
 .filter__item_three::before {
@@ -188,6 +190,14 @@ form {
 
 .filter__item_four::before {
     content:"\f6d3";
+}
+
+.filter__item:hover,
+.filter__item_two:hover,
+.filter__item_three:hover,
+.filter__item_four:hover {
+    background-color: var(--bleu);
+    color: var(--bleu_claire);
 }
 
 
