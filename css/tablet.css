@@ -72,6 +72,10 @@
         margin-bottom: 0px;
     }
 
+    .info {
+        width: 87%;
+    }
+
     /* ============================= Host Popular Activity ===================== */
 
     .host_and_popular_container {
@@ -141,5 +145,10 @@
         max-height: 150px;
     }
 
+    /* ============================ Footer ===================== */
+
+    .footer__card {
+        flex: auto;
+    }
 
 }

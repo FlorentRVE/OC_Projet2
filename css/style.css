@@ -39,10 +39,6 @@ a {
     margin-bottom: 38px;
 }
 
-.padding__left {
-    padding-left: 20px;
-}
-
 .box__shadow { 
     box-shadow: 0px 10px 15px -15px #000000;
 }
@@ -353,7 +349,7 @@ form {
 
 .popular__grid__card img {
     border-radius: 17px 0 0 17px;
-    max-width: 130px;
+    width: 130px;
 
     object-fit: cover;
 }
@@ -364,8 +360,6 @@ form {
 
     font-size: 14px;
     padding-left: 10px;
-    padding-right: 30px ;
-  
 }
 
 .card__title__margin {
@@ -392,6 +386,12 @@ form {
     flex-direction: column;
     border-radius: 20px;
     width: 23%;
+}
+
+.activity_card_title_padding {
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .activity__grid__card img {
