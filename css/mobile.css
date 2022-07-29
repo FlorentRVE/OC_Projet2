@@ -4,11 +4,6 @@
 
 @media (max-width: 768px) {
 
-    * {
-        --bleu: green;
-       }
-
-
     /* ====================== Search box ===================== */
     
     .button__text {
