@@ -19,6 +19,7 @@ main {
     margin: 0 auto;
 }
 
+a, 
 a:visited {
     color: #000000;
 }
@@ -458,10 +459,6 @@ footer {
 /* ======================================= Media queries =============================== */
 
 @media only screen and (min-width: 992.5px) and (max-width: 1162px) {
-    * {
-        --bleu: #fc0000;
-    }
-
     .host__grid__card {
         min-width: 128px;
 
@@ -469,61 +466,53 @@ footer {
 
     .host__grid__card__text {
         font-size: 10px !important;
-        color: #fc0093;
-        line-height: 17px;
+        line-height: 14px;
     }
 
+    .card__title__responsive {
+        width: 102px;
+    }
+    
     .host__grid__card img {
         max-height: 72px;
       }
+
 }
 
 @media only screen and (min-width: 1161.5px) and (max-width: 1414px) {
-    * {
-        --bleu: #13b879;
-    }
-
     .host__grid__card {
         min-width: 180px;
+    }
+
+    .host__grid__card img {
+        max-height: 100px;
+    }
+
+    .font-size__responsive {
+        font-size: 13px;
     }
 }
 
 @media only screen and (min-width: 1414.5px) and (max-width: 1793px) {
-    * {
-        --bleu: #df00fc;
-    }
-
     .host__grid__card {
         min-width: 250px;
     }
 }
 
 @media only screen and (min-width: 1793.5px) and (max-width: 2175px) {
-    * {
-        --bleu: #e7fc00;
-    }
-
     .host__grid__card {
         min-width: 300px;
     }
 }
 
 @media only screen and (min-width: 2174.5px) and (max-width: 2493px) {
-    * {
-        --bleu: #fc0000;
-    }
-
     .host__grid__card {
         min-width: 350px;
     }
 }
 
 @media only screen and (min-width: 2492.5px) {
-    * {
-        --bleu: #5c00fc;
-    }
-
-    .host__grid__card {
+     .host__grid__card {
         min-width: 400px;
     }
 }
