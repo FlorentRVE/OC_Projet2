@@ -400,7 +400,7 @@ form {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    width: 23%;
+    width: 22%;
 }
 
 .activity_card_title_padding {
@@ -433,7 +433,11 @@ form {
 }
 
 .activity__grid__card--small img {
-    max-height: 140px;
+    max-height: 117px;
+}
+
+.activity__grid__card--medium img {
+    max-height: 190px;
 }
 
 /* ====================================================== Footer ========================================================== */
@@ -477,6 +481,14 @@ footer {
         max-height: 72px;
       }
 
+    .activity__grid__card {
+        width: 21%
+    }
+
+    .card__title {
+        font-size: 15px;
+    }
+
 }
 
 @media only screen and (min-width: 1161.5px) and (max-width: 1414px) {
@@ -491,6 +503,7 @@ footer {
     .font-size__responsive {
         font-size: 13px;
     }
+
 }
 
 @media only screen and (min-width: 1414.5px) and (max-width: 1793px) {
